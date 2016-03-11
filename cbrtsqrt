@@ -1,0 +1,19 @@
+public class Mainsqcbrt {
+public static void main(string[] args) {
+cbrtsqrtA1 =new cbrtsqrt();
+cbrtsqrtA2 =new cbrtsqrt();
+A1.name = "Cube root is";
+A2.name = "Sqrt root is";
+system.out.println (A1.name + A1.Cbrt(125));
+system.out.println (A2.name + A2.Sqrt(100));
+}
+}
+public class cbrtsqrt {
+string name;
+public double Cbrt(double x){
+return Math.cbrt(x);
+} 
+public double sqrt(double y){
+return Math.sqrt(y);
+}
+}
